@@ -1,0 +1,30 @@
+h1 {
+    background: lightskyblue;
+    height: 150px;
+    width: 150px;
+}
+
+h2 {
+    background: purple;
+    width: 150px;
+}
+
+a {
+    background: lime;
+}
+
+.box-1 {
+    width:200px;
+    height: 200px;
+    background: lime;
+    padding: 10px;
+    border: 10px solid red;
+    margin: 20px;
+    outline: 10px solid blue;
+}
+
+.box-2 {
+    width:200px;
+    height: 200px;
+    background: lightcoral;
+}

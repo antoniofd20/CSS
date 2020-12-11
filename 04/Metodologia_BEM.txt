@@ -1,0 +1,37 @@
+METODOLOGIA BEM
+
+Una metodologia en CSS son una serie de consejos para estructurar
+nuestras clases de una forma sencilla, escalable y reutilizable.
+
+BEM es una de las metodologias mas utilizadas en el mundo.
+Su nombre viene de las siglas, Block, Element, Modifier.
+	
+	-> Block (Bloque) Es cualquier elemento autonomo y 
+	aislado de nuestro documento, un menu, una galeria, un 
+	formulario, etc.
+	
+	-> Element (elemento) Es cada uno de los elementos de un 
+	bloque, un link, una foto, un campo de texto, etc.
+	
+	-> Modifier (Modificador) Cuando un bloque se repite en 
+	otro lugar de neustra web pero con alguna modificacion. 
+	el color del texto, el tamaño de la fuente, etc.
+
+Los bloques se suelen denominar con una sola palabra o con dos 
+palabras separadas por un guion si puede existir conflicto de 
+estilos.
+
+.menu / .main-menu
+.gallery / .main-gallery
+
+Los elementos se nombran con el nombre al bloque al que 
+pertenecen y su nombre con dos guiones bajos.
+
+.menu__item / .main-menu__link
+.galley__img / .main-gallery__item
+
+Los modificadores se nombran con el nombre del bloque al que 
+pertenecen y su modificador con dos giones medios.
+
+.menu__item--active
+.gallery__item--special

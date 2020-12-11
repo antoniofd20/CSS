@@ -58,3 +58,43 @@ a {
     background: yellow;
     border: 2px solid red;
 }
+
+/*
+Border
+
+border-width
+    px|em|rem|%|...
+
+border-style 
+    none|hidden|dotted|dashed|solid|double|groove|ridge|insert|outset|initial|inherit
+
+    *Estas medidas dependen del navegador*
+    thick (ancho)
+    medium (medio)
+    thin (fino)
+
+border-color
+    css native|rgb|rgba|hs1|hs1a|hexadecimal|transparent
+
+
+*/
+
+.border-1, .border-2 {
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+}
+
+.border-1 {
+    background: yellowgreen;
+    border: 10px solid orange;
+    border-top: none;
+}
+
+.border-2 {
+    background: lightgreen;
+    border-left-width: 5px;
+    border-left-style: double;
+    border-left-color: blue;
+
+}

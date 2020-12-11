@@ -18,13 +18,43 @@ a {
     height: 200px;
     background: lime;
     padding: 10px;
-    border: 10px solid red;
+    border: 10px solid red; /* Sus dimensiones cuentan para el tamaño total */ 
     margin: 20px;
-    outline: 10px solid blue;
+    outline: 10px solid blue; /* Sus dimensiones no cuentan para el tamaño total */ 
 }
 
 .box-2 {
     width:200px;
     height: 200px;
     background: lightcoral;
+}
+
+.box1 {
+    width:200px;
+    height: 200px;
+    background: lime;
+    /* margin: 1rem 2rem 3rem 4rem; */ 
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+.box2 {
+    width:200px;
+    height: 200px;
+    background: salmon;
+    border: 2px solid blue;
+    /* padding: 1rem 2rem 3rem 4rem; */
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+}
+
+.box2-content {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border: 2px solid red;
 }

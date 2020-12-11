@@ -1,0 +1,27 @@
+************************* CSS *************************
+
+CSS no es un lenguaje de programacion aun que tiene variables
+y funciones. Es el único lenguaje de diseño que existe.
+CSS viene de Cascade Style Sheet (Hojas de estilo en cascada)
+
+-> Historia de CSS.
+
+1970 - Se crea un lenguaje para dar estulos a los documentos
+de SMGL
+1994 / 1995 - sE UNIO ssp y CHSS para definir el lenguaje CSS.
+1996 - La W3C publica el estandar CSS1
+1998 - La W3C publica el estandar CSS2
+2009 - La W3C publica el estandar CSS2.1
+2011 - Con la llegada de CSS3 el lenguaje se fragmenta y se 
+divide en distintos módulos y cada uno tiene su propio estandar 
+o recomendacion oficial
+
+-> CSS3
+
+La llegada de CSS3 fue una revolucion para el mundo Web
+Nació el RWD (responsive web desing)
+Podriamos elegir estilos distintos para cada tamaño de pantalla
+e incluso para impresoras.
+Llego flexbox y el grid que ha sido un gran avance para el 
+desarrollo web.
+Llegaron las animaciones y las transiciones.

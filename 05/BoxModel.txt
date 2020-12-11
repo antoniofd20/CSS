@@ -52,3 +52,36 @@ Propiedades de la caja:
 |   |---------------------------------------------------------|   |
 |                                                                 |
 |-----------------------------------------------------------------|
+
+-> MARGIN
+
+Margin es la separacion entre una caja y las cajas adyacentes.
+
+Margin es un shorthand:
+    ~ margin-top
+    ~ margin-right
+    ~ margin-bottom
+    ~ margin-left
+
+Ejemplos:
+    ~ margin: 1rem; (top, right, bottom, left)
+    ~ margin: 1rem 2rem; (Y X)
+    ~ margin: 1rem 2rem 3rem; (top X bottom)
+    ~ margin: 1rem 2rem 3rem 4rem; (top, right, bottom, left)
+
+
+-> PADDING
+
+Padding es la separacion entre el contenido y su borde.
+
+Padding es un shorthand:
+    ~ padding-top
+    ~ padding-right
+    ~ padding-bottom
+    ~ padding-left
+
+Ejemplos:
+    ~ padding: 1rem; (top, right, bottom, left)
+    ~ padding: 1rem 2rem; (Y X)
+    ~ padding: 1rem 2rem 3rem; (top X bottom)
+    ~ padding: 1rem 2rem 3rem 4rem; (top, right, bottom, left)

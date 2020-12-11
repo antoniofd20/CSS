@@ -1,0 +1,54 @@
+BOX MODEL
+
+En la web todo son cajas, al conjunto de esas cajas y la forma en 
+la que el navegador los dibuja se le denomina LAYOUT.
+
+Las propiedades principales de cada una de estas cajas son el ancho
+(WIDTH) y el alto (HEIGHT).
+
+Existen dos tipos de elementos en HTML, elementos en linea(inline) 
+y de bloque (block) estas propiedades se pueden modificar con el 
+atributo display.
+
+-> Elementos inline:
+    ~ Son elementos que solo ocupan su contenido.
+    ~ No se puede modificar ni su ancho ni su alto.
+
+-> Elementos block:
+    ~ Ocupan todo el ancho disponible.
+    ~ Se les puede asignar ancho y alto.
+
+------------------------------------------------------------------
+| Block Element                                                   |
+|-----------------------------------------------------------------|
+|                                                                 |
+|                                                                 |
+|                                                                 |
+|----------------                                                 |
+|Inline Element |                                                 |
+|----------------                                                 |
+|                                                                 |
+|                                                                 |
+-------------------------------------------------------------------
+
+Propiedades de la caja:
+
+|-----------------------------------------------------------------|
+|                            MARGIN                               |
+|   |---------------------------------------------------------|   |
+|   |                        OUTLINE                          |   |
+|   |   |--------------------------------------------------|  |   |
+|   |   |                    BORDER                        |  |   |
+|   |   |   |------------------------------------------|   |  |   |
+|   |   |   |                PADDING                   |   |  |   |
+|   |   |   |   |----------------------------------|   |   |  |   |
+|   |   |   |   |            CONTENT               |   |   |  |   |
+|   |   |   |   |----------------------------------|   |   |  |   |
+|   |   |   |                                          |   |  |   |
+|   |   |   |------------------------------------------|   |  |   |
+|   |   |                                                  |  |   |
+|   |   |--------------------------------------------------|  |   |
+|   |                                                         |   |
+|   |---------------------------------------------------------|   |
+|                                                                 |
+|-----------------------------------------------------------------|

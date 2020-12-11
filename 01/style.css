@@ -65,3 +65,28 @@ h1 {
 [class*="rojo"]{
     color: brown;
 }
+
+/* Selectores activadores */
+/* Selector de hermano adyacente */
+h1 + h2 {
+    color: grey;
+} 
+
+h2 + h2 {
+    color: blue;
+}
+
+/* Selector de hermano general */
+h1 ~ h3 {
+    color: green;
+}
+
+/* Selectores descendentes */
+div span {
+    color: black;
+}
+
+/* Selector de hijo directo */
+p > span{
+    color: blue;
+}

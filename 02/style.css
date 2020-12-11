@@ -1,0 +1,19 @@
+#parrafo{
+    color: green;
+    font-size: 1.5rem;
+}
+
+.parrafo {
+    color: purple;
+    font-size: 1.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: orange;
+    font-size: 1.5rem;
+}
+

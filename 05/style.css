@@ -98,3 +98,28 @@ border-color
     border-left-color: blue;
 
 }
+
+/* OUTLINE */
+
+.img-box {
+    margin-top: 5rem;
+    width: 90%;
+    margin-top: 2em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+    border: 10px solid black;
+    outline: 5px solid White;
+    outline-offset: -30px;
+}
+
+.text {
+    position: absolute;
+    color: White;
+    font-size: 3rem;
+}

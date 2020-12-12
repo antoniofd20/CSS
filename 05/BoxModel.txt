@@ -85,3 +85,35 @@ Ejemplos:
     ~ padding: 1rem 2rem; (Y X)
     ~ padding: 1rem 2rem 3rem; (top X bottom)
     ~ padding: 1rem 2rem 3rem 4rem; (top, right, bottom, left)
+
+
+-> BORDER
+
+Border es la linea que rodea la caja.
+
+Border es un shorthand:
+    ~ width
+    ~ style
+    ~ color
+
+Existen bastantes combinaciones:
+    ~ border-width: 2px; (top, right, bottom, left)
+    ~ border-style: solid dotted; (X Y)
+    ~ border-color: red blue green; (top X bottom)
+    ~ border-width: 2px 3px 4px 5px; (top right bottom left)
+
+Ejemplos de valores que se pueden usar:
+
+border-width
+    px|em|rem|%|...
+
+border-style 
+    none|hidden|dotted|dashed|solid|double|groove|ridge|insert|outset|initial|inherit
+
+    *Estas medidas dependen del navegador*
+    thick (ancho)
+    medium (medio)
+    thin (fino)
+
+border-color
+    css native|rgb|rgba|hs1|hs1a|hexadecimal|transparent

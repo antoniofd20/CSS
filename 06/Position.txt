@@ -43,3 +43,14 @@ Si no tienedimensiones declaradas sus dimensiones se ajustan al
 contenido.
 Su punto de referencia no se modificará aunque movamos el elemento.
 Cuando hacemos scroll el elemento no se movera, se quedara fijado.
+
+
+POSITION STICKY
+
+El valor sticky es una mezcla entre relative y fixed
+El elemento va a conservar su espacio en el flujo. 
+Si no tiene dimensiones declaradas, sus dimensiones se ajustan al 
+contenido.
+Su punto de referencia no se modificara aunque movamos el elemento. 
+Cuando havemos scroll el elemento se movera hasta alcanzar el tope
+establecido.

@@ -89,3 +89,23 @@
     bottom: 0;
     margin: auto;
 }
+
+/* POSITION FIXED */
+
+body{
+    padding-top: 4em;
+}
+
+.menu {
+    background: darkcyan;
+    padding: .5rem;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title {
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+POSITION
+
+Es la propiedad que nos permite modificar el flujo del HTML.
+
+Los valores de POSITION son:
+    ~ static (Valor por defecto)
+    ~ relative
+    ~ absolute
+    ~ fixed
+    ~ sticky
+
+Al tener un elemento proporcionado podemos moverlo en los 3 ejes.
+    ~ top: Podemos mover el elemento en relacion a la parte superior.
+    ~ right: Podemos mover el elemento en relacion a la parte derecha.
+    ~ bottom: Podemos mover el elemento en relacion a la parte inferior.
+    ~ left: Podemos mover el elemento en relacion a la parte izquiera.
+    ~ z-index: Podemos mover el elemento en el eje z.
+
+
+POSITION RELATIVE
+
+El valor relative hace que el elemento se coloque respecto a si posicion en el flujo.
+Al moverlo, el elemento conserva si espacio reservado.
+Su punto de referencia no se va a modificar aun que movamos el elemento.
+
+
+POSITION ABSOLUTE
+
+El valor absolute hace que el elemento se coloque respecto a su contenedor posicionado 
+mas cercano, si no encuentra ninguno será el viewport.
+El elemento no concerva su espacio en el flujo.
+Si el elemento no tiene dimensiones declaradas, sus dimensiones se ajustan al contenido.
+Su ponto de referencia no se modificara aunque movamos el elemento.
+

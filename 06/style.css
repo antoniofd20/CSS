@@ -1,0 +1,39 @@
+.title {
+    text-align: center;
+    font-size: 3em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.parrafo-1 {
+    /*visibility: hidden;*/
+    display: none;
+}
+
+/* POSITION RELATIVE */
+
+.box1, .box2 {
+    width: 200px;
+    height: 200px;
+    margin: 1em auto;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.box1 {
+    background: lightslategray;
+    position: relative;
+    /* top right bottom left z-index */
+    top: 200px;
+    left: 200px;
+    /* top y left tienen preferencia ante bottom y right */
+}
+
+.box2 {
+    background: mediumpurple;
+    position: relative;
+    top: -200px;
+    left: -200px;
+}

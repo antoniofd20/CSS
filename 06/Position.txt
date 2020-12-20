@@ -26,9 +26,20 @@ Su punto de referencia no se va a modificar aun que movamos el elemento.
 
 POSITION ABSOLUTE
 
-El valor absolute hace que el elemento se coloque respecto a su contenedor posicionado 
+El valor absolute hace que el elemento se coloque respecto a su 
+contenedor posicionado 
 mas cercano, si no encuentra ninguno será el viewport.
 El elemento no concerva su espacio en el flujo.
-Si el elemento no tiene dimensiones declaradas, sus dimensiones se ajustan al contenido.
+Si el elemento no tiene dimensiones declaradas, sus dimensiones se 
+ajustan al contenido.
 Su ponto de referencia no se modificara aunque movamos el elemento.
 
+
+POSITION FIXED
+
+El valor fixed hace que el elemento se coloquerespecto al viewport.
+El elemento no conserva su espacio en el flujo.
+Si no tienedimensiones declaradas sus dimensiones se ajustan al 
+contenido.
+Su punto de referencia no se modificará aunque movamos el elemento.
+Cuando hacemos scroll el elemento no se movera, se quedara fijado.

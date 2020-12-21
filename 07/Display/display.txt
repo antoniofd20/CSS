@@ -1,0 +1,31 @@
+DISPLAY
+
+Nos permite definir como se comporta una caja.
+De forma natural existen elementos en linea y elementos de bloque.
+
+------------------------------------------------------------------
+| Block Element                                                   |
+|-----------------------------------------------------------------|
+|                                                                 |
+|                                                                 |
+|                                                                 |
+|----------------                                                 |
+|Inline Element |                                                 |
+|----------------                                                 |
+|                                                                 |
+|                                                                 |
+-------------------------------------------------------------------
+
+Los valores de la propiedad display son:
+    -> inline: Establece que la caja se comporta como si fuera un 
+    elemento de linea.
+    -> block: Establece que la caja se comporta como si fuera un
+    elemento de bloque.
+    -> inline-block: Se comporta como un elemento de linea pero
+    acepta width y heigth.
+    -> none: Oculta el elemento pero se sigue renderizando.
+    -> table: imita el comportamiento de una tabla.
+    -> list-item: Imita el comportamiento de una lista.
+
+    -> flex: Maquetar componentes.
+    -> grid: Maquetar layout.

@@ -1,0 +1,20 @@
+Nos permite modificar el orden de las capas en el eje z 
+(profundididad).
+Admite valores positivos y negativos.
+Es recomendable usar valores no consecutivos: 100, 200, 300...
+
+
+|---------------|
+|               |
+|               | 
+|      |-----------------|
+|      |                 | 
+|      |                 |
+|------|                 |
+       |        |------------------|
+       |        |                  |
+       |        |                  |
+       |--------|                  |
+                |                  |
+                |                  |
+                |------------------|

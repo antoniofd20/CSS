@@ -1,0 +1,12 @@
+PSEUDOELEMENTOS
+
+Se utilizan para dar estilo a partes especificas de un elemento.
+La sintaxis es selector::pseudo-element { estilos }
+
+Existe 5 pseudoelementos:
+    -> ::fist-line (Elementos de bloque)
+    -> ::first-letter ( Elementos de bloque)
+    -> ::before
+    -> ::after
+    -> ::selection
+

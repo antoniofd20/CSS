@@ -1,0 +1,40 @@
+.input, .label {
+    display: block;
+}
+
+/* enabled */
+.input:enabled {
+    background: red;
+}
+
+/* disabled */
+.input:disabled {
+    background: yellow;
+}
+
+/* checked */
+.input:checked + label{
+    font-size: 2em;
+}
+
+/**/
+.input:in-range{
+    background: green;
+}
+
+.input:out-of-range{
+    background: blue;
+}
+
+/* Para los campos opcionales se utiliza :optional
+   Para los campos requeridos se utiliza :require*/
+
+/*
+.input:valid {
+    background: orange;
+}
+
+.input:invalid {
+    background: palegreen;
+}
+*/

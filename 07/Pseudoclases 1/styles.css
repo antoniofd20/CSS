@@ -1,0 +1,78 @@
+
+/*
+.link:link {
+    color: red;
+}
+
+link:visited {
+    color: firebrick;
+}
+
+.link:active {
+    color: cyan;
+    background: firebrick;
+}
+*/
+
+.title:hover {
+    color: blueviolet;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    padding: .5em;
+    border-radius: 10px;
+    color: white;
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+.button:hover {
+    background: white;
+    color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.input:focus {
+    background: red;
+    color: white;
+}
+
+.text {
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+}
+
+.text:target {
+    padding-top: 75px;
+}
+
+.menu {
+    background: salmon;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.span {
+    display: block;
+}
+
+.span:lang(en) {
+    color: red;
+}
+
+.span:lang(es) {
+    color: blue;
+}

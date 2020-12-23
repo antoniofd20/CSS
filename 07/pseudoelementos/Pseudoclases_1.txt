@@ -1,0 +1,16 @@
+PSEUDOCLASES.
+
+Son selectores que reaccionan en tiempo real detectando la 
+interaccion del usuario con algunos elementos.
+Funcionan con todos los selectores de CSS.
+No estan atados a ningun elemento.
+
+Sintaxis:
+
+selector::pseudoclase {
+    estilos
+}
+
+:preudoclase {
+    estilos
+}

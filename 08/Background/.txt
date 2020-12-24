@@ -1,0 +1,19 @@
+BACKGROUND
+
+Es una propiedad que nos permite darle un fondo a las cajas.
+La propiedad background es un shorthand, la lista de propiedades 
+que incluye background son:
+
+-> background-color: Nos permite establecer un color de fondo.
+-> background-image: Nos permite establecer una imagen de fondo.
+-> background-repeat: Nos permite establecer si un fondo se repite
+                      o no.
+-> background-position: Nos permite establecer la posicion del 
+                        background
+-> background-size: Establecer el tamaño.
+-> background-origin: Establecer donde se empezara a dibujar el    
+                      fondo
+-> background-clip: en que parte de la caja se va a dibujar.
+-> background-attachment: Nos permite establecer si el background
+                          es relativo a la caja o al viewport.
+
